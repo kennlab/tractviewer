@@ -1,0 +1,18 @@
+[project]
+name = "tractviewer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "nibabel>=5.3.2",
+    "numpy>=2.3.4",
+    "pyqt5>=5.15.11",
+    "pyqt5-qt5<=5.15.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipython>=9.6.0",
+    "matplotlib>=3.10.7",
+]
